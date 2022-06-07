@@ -1,0 +1,19 @@
+{
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "vehicle\\":"src/vehicle",
+            "color\\":"src/color"
+        }
+
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "vehicle\\":"src/"
+        }
+    }
+}
