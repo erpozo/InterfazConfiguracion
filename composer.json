@@ -6,14 +6,13 @@
     },
     "autoload": {
         "psr-4": {
-            "vehicle\\":"src/vehicle",
-            "color\\":"src/color"
+            "configfile\\":"src/"
         }
 
     },
     "autoload-dev": {
         "psr-4": {
-            "vehicle\\":"src/"
+            "configfile\\":"src/"
         }
     }
 }
